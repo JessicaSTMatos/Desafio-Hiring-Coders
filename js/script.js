@@ -15,7 +15,6 @@ form.addEventListener("submit", (e) => {
   let content = document.getElementById("content");
 
   let carregando = `<p>carregando...</p>`;
-  let pronto = `<p>OK</p>`;
   content.innerHTML = carregando;
   setTimeout(() => {
     content.innerHTML = "";
